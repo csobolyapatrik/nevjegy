@@ -11,7 +11,7 @@ body{
   background-color: hsl(210, 100%, 55%);
 }
 .profile{
-  margin: 20% auto 20%;
+  margin: 30% auto 20%;
   border-radius: 20px;
   box-shadow: 0 0 0 50px orange; /*Google keresés eredménye ye*/
   display: inline-block;
@@ -67,6 +67,9 @@ h2{
 }
 ul{
   list-style-type: none;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 30px;
 }
 li{
   display: inline;
