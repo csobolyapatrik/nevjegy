@@ -12,8 +12,8 @@ body{
 }
 .profile{
   margin: 10% auto 10%;
-  border-radius: 20px;
-  box-shadow: 0 0 0 50px orange; /*Google keresés eredménye ye*/
+  border-radius: 1.25rem;
+  box-shadow: 0 0 0 3.125rem orange; /*Google keresés eredménye ye*/
   display: inline-block;
   width: 40%;
 }
@@ -21,12 +21,12 @@ body{
   text-align: center;
 }
 .image{
-  margin-top: -100px;
+  margin-top: -6.25rem;
 }
 img{
-  height: 150px;
-  width: 150px;
-  padding: 1px;
+  height: 9.375rem;
+  width: 9.375rem;
+  padding: 0.063rem;
   background-color: darkgrey;
   border-radius: 50%;
   filter: grayscale(50%);
@@ -37,31 +37,31 @@ img:hover{
   filter: grayscale(20%);
 }
 .content{
-  margin:  30px auto;
-  padding: 10px auto;
+  margin:  1.875rem auto;
+  padding: 0.625rem auto;
   width: 80%;
   text-align: center;
  }
 h1{
   font-variant-caps: all-small-caps;
-  Font-size: 35px;
+  Font-size: 2.188rem;
   letter-spacing: 0.1em;
   color: antiquewhite;
 }
 h2{
-  margin-top: -15px;
-  font-size: 20px;
+  margin-top: -0.938rem;
+  font-size: 1.25rem;
   color: antiquewhite;
 }
 .about{
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
   line-height: 1.4;
   letter-spacing: 0.05em;
-  padding: 10px;
+  padding: 0.625rem;
   color: antiquewhite;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 0.063rem solid black;
+  border-bottom: 0.063rem solid black;
   background-color: hsla(0, 0%, 95%, .2);
   /*border-radius: 20px;*/
 }
@@ -69,8 +69,34 @@ ul{
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 li{
   display: inline;
+}
+@media (max-width: 768px){
+  img{
+    width: 4.688rem;
+    height: 4.688rem;
+  }
+  .image{
+    margin-top: -3rem;
+  }
+  .profile{
+    box-shadow: 0 0 0 1.5625rem orange;
+  }
+  h1{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+  p{
+    font-size: 0.875rem;
+  }
+  ul{
+    font-size: 1rem;
+    letter-spacing: 0.5em;
+  }
 }
